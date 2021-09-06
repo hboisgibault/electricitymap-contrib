@@ -80,14 +80,11 @@ const USSimplifiedGeos = [].concat([
   readGeoJson('./third_party_maps/US_simplified/US-FLA-GVL.geojson'), //Gainesville Regional Utilities
   readGeoJson('./third_party_maps/US_simplified/US-FLA-HST.geojson'), //City Of Homestead
   readGeoJson('./third_party_maps/US_simplified/US-FLA-JEA.geojson'), //Jea
-  readGeoJson('./third_party_maps/US_simplified/US-FLA-NSB.geojson'), //New Smyrna Beach, Utilities Commission Of
   readGeoJson('./third_party_maps/US_simplified/US-FLA-SEC.geojson'), //Seminole Electric Cooperative
   readGeoJson('./third_party_maps/US_simplified/US-FLA-TAL.geojson'), //City Of Tallahassee
   readGeoJson('./third_party_maps/US_simplified/US-FLA-TEC.geojson'), //Tampa Electric Company
-  readGeoJson('./third_party_maps/US_simplified/US-MIDA-OVEC.geojson'), //Ohio Valley Electric Corporation
   readGeoJson('./third_party_maps/US_simplified/US-MIDA-PJM.geojson'), //Pjm Interconnection, Llc
   readGeoJson('./third_party_maps/US_simplified/US-MIDW-AECI.geojson'), //Associated Electric Cooperative, Inc.
-  readGeoJson('./third_party_maps/US_simplified/US-MIDW-EEI.geojson'), //Electric Energy, Inc.
   readGeoJson('./third_party_maps/US_simplified/US-MIDW-LGEE.geojson'), //Louisville Gas And Electric Company And Kentucky Utilities
   readGeoJson('./third_party_maps/US_simplified/US-MIDW-MISO.geojson'), //Midcontinent Independent Transmission System Operator, Inc..
   readGeoJson('./third_party_maps/US_simplified/US-NE-ISNE.geojson'), //Iso New England Inc.
@@ -119,7 +116,6 @@ const USSimplifiedGeos = [].concat([
   readGeoJson('./third_party_maps/US_simplified/US-SW-DEAA.geojson'), //Arlington Valley, Llc - Avba
   readGeoJson('./third_party_maps/US_simplified/US-SW-EPE.geojson'), //El Paso Electric Company
   readGeoJson('./third_party_maps/US_simplified/US-SW-GRIF.geojson'), //Griffith Energy, Llc
-  readGeoJson('./third_party_maps/US_simplified/US-SW-GRMA.geojson'), //Gila River Power, Llc
   readGeoJson('./third_party_maps/US_simplified/US-SW-HGMA.geojson'), //New Harquahala Generating Company, Llc - Hgba
   readGeoJson('./third_party_maps/US_simplified/US-SW-PNM.geojson'), //Public Service Company Of New Mexico
   readGeoJson('./third_party_maps/US_simplified/US-SW-SRP.geojson'), //Salt River Project
@@ -149,14 +145,11 @@ const USOriginalGeos = [].concat([
   readGeoJson('./third_party_maps/US/US-FLA-GVL.geojson'), //Gainesville Regional Utilities
   readGeoJson('./third_party_maps/US/US-FLA-HST.geojson'), //City Of Homestead
   readGeoJson('./third_party_maps/US/US-FLA-JEA.geojson'), //Jea
-  readGeoJson('./third_party_maps/US/US-FLA-NSB.geojson'), //New Smyrna Beach, Utilities Commission Of
   readGeoJson('./third_party_maps/US/US-FLA-SEC.geojson'), //Seminole Electric Cooperative
   readGeoJson('./third_party_maps/US/US-FLA-TAL.geojson'), //City Of Tallahassee
   readGeoJson('./third_party_maps/US/US-FLA-TEC.geojson'), //Tampa Electric Company
-  readGeoJson('./third_party_maps/US/US-MIDA-OVEC.geojson'), //Ohio Valley Electric Corporation
   readGeoJson('./third_party_maps/US/US-MIDA-PJM.geojson'), //Pjm Interconnection, Llc
   readGeoJson('./third_party_maps/US/US-MIDW-AECI.geojson'), //Associated Electric Cooperative, Inc.
-  readGeoJson('./third_party_maps/US/US-MIDW-EEI.geojson'), //Electric Energy, Inc.
   readGeoJson('./third_party_maps/US/US-MIDW-LGEE.geojson'), //Louisville Gas And Electric Company And Kentucky Utilities
   readGeoJson('./third_party_maps/US/US-MIDW-MISO.geojson'), //Midcontinent Independent Transmission System Operator, Inc..
   readGeoJson('./third_party_maps/US/US-NE-ISNE.geojson'), //Iso New England Inc.
@@ -188,7 +181,6 @@ const USOriginalGeos = [].concat([
   readGeoJson('./third_party_maps/US/US-SW-DEAA.geojson'), //Arlington Valley, Llc - Avba
   readGeoJson('./third_party_maps/US/US-SW-EPE.geojson'), //El Paso Electric Company
   readGeoJson('./third_party_maps/US/US-SW-GRIF.geojson'), //Griffith Energy, Llc
-  readGeoJson('./third_party_maps/US/US-SW-GRMA.geojson'), //Gila River Power, Llc
   readGeoJson('./third_party_maps/US/US-SW-HGMA.geojson'), //New Harquahala Generating Company, Llc - Hgba
   readGeoJson('./third_party_maps/US/US-SW-PNM.geojson'), //Public Service Company Of New Mexico
   readGeoJson('./third_party_maps/US/US-SW-SRP.geojson'), //Salt River Project
@@ -943,7 +935,6 @@ const zoneDefinitions = [
   { zoneName: 'US-FLA-GVL', type: 'subZone', countryId: 'USA', id: 'US-FLA-GVL' }, //Gainesville Regional Utilities
   { zoneName: 'US-FLA-HST', type: 'subZone', countryId: 'USA', id: 'US-FLA-HST' }, //City Of Homestead
   { zoneName: 'US-FLA-JEA', type: 'subZone', countryId: 'USA', id: 'US-FLA-JEA' }, //Jea
-  { zoneName: 'US-FLA-NSB', type: 'subZone', countryId: 'USA', id: 'US-FLA-NSB' }, //New Smyrna Beach, Utilities Commission Of
   { zoneName: 'US-FLA-SEC', type: 'subZone', countryId: 'USA', id: 'US-FLA-SEC' }, //Seminole Electric Cooperative
   { zoneName: 'US-FLA-TAL', type: 'subZone', countryId: 'USA', id: 'US-FLA-TAL' }, //City Of Tallahassee
   { zoneName: 'US-FLA-TEC', type: 'subZone', countryId: 'USA', id: 'US-FLA-TEC' }, //Tampa Electric Company
@@ -955,10 +946,8 @@ const zoneDefinitions = [
   { zoneName: 'US-HI-MO', type: 'subZone', id: 'US-HI-MO' },
   { zoneName: 'US-HI-NI', type: 'subZone', id: 'US-HI-NI' },
   { zoneName: 'US-HI-OA', type: 'subZone', id: 'US-HI-OA' },
-  { zoneName: 'US-MIDA-OVEC', type: 'subZone', countryId: 'USA', id: 'US-MIDA-OVEC' }, //Ohio Valley Electric Corporation
   { zoneName: 'US-MIDA-PJM', type: 'subZone', countryId: 'USA', id: 'US-MIDA-PJM' }, //Pjm Interconnection, Llc
   { zoneName: 'US-MIDW-AECI', type: 'subZone', countryId: 'USA', id: 'US-MIDW-AECI' }, //Associated Electric Cooperative, Inc.
-  { zoneName: 'US-MIDW-EEI', type: 'subZone', countryId: 'USA', id: 'US-MIDW-EEI' }, //Electric Energy, Inc.
   { zoneName: 'US-MIDW-LGEE', type: 'subZone', countryId: 'USA', id: 'US-MIDW-LGEE' }, //Louisville Gas And Electric Company And Kentucky Utilities
   { zoneName: 'US-MIDW-MISO', type: 'subZone', countryId: 'USA', id: 'US-MIDW-MISO' }, //Midcontinent Independent Transmission System Operator, Inc..
   { zoneName: 'US-NE-ISNE', type: 'subZone', countryId: 'USA', id: 'US-NE-ISNE' }, //Iso New England Inc.
@@ -990,7 +979,6 @@ const zoneDefinitions = [
   { zoneName: 'US-SW-DEAA', type: 'subZone', countryId: 'USA', id: 'US-SW-DEAA' }, //Arlington Valley, Llc - Avba
   { zoneName: 'US-SW-EPE', type: 'subZone', countryId: 'USA', id: 'US-SW-EPE' }, //El Paso Electric Company
   { zoneName: 'US-SW-GRIF', type: 'subZone', countryId: 'USA', id: 'US-SW-GRIF' }, //Griffith Energy, Llc
-  { zoneName: 'US-SW-GRMA', type: 'subZone', countryId: 'USA', id: 'US-SW-GRMA' }, //Gila River Power, Llc
   { zoneName: 'US-SW-HGMA', type: 'subZone', countryId: 'USA', id: 'US-SW-HGMA' }, //New Harquahala Generating Company, Llc - Hgba
   { zoneName: 'US-SW-PNM', type: 'subZone', countryId: 'USA', id: 'US-SW-PNM' }, //Public Service Company Of New Mexico
   { zoneName: 'US-SW-SRP', type: 'subZone', countryId: 'USA', id: 'US-SW-SRP' }, //Salt River Project
